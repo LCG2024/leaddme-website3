@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaddMe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">LeaddMe</div>
+        <nav class="navigation-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Job Listings</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Find Your Dream Job</h1>
+        <p>Connect with top companies and discover exciting job opportunities.</p>
+        <button class="cta-button">Get Started</button>
+        <div class="chatbot-icon">
+            <img src="chatbot-icon.png" alt="Chatbot Icon">
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="job-listings">
+            <h2>Job Listings</h2>
+            <div class="job-item">Job 1</div>
+            <div class="job-item">Job 2</div>
+            <div class="job-item">Job 3</div>
+        </section>
+
+        <section class="personalized-recommendations">
+            <h2>Personalized Recommendations</h2>
+            <div class="recommendation-item">Recommended Job 1</div>
+            <div class="recommendation-item">Recommended Job 2</div>
+            <div class="recommendation-item">Recommended Job 3</div>
+        </section>
+
+        <section class="featured-articles">
+            <h2>Featured Articles</h2>
+            <article>Article 1</article>
+            <article>Article 2</article>
+            <article>Article 3</article>
+        </section>
+    </main>
+
+    <!-- User Profile Section -->
+    <section class="user-profile">
+        <h2>Your Profile</h2>
+        <div class="profile-overview">Profile Overview</div>
+        <div class="job-application-tracker">Job Application Tracker</div>
+        <div class="settings">Settings</div>
+    </section>
+
+    <!-- Resource Center Section -->
+    <section class="resource-center">
+        <h2>Resources</h2>
+        <div class="interview-tips">Interview Tips</div>
+        <div class="career-advice">Career Advice</div>
+        <div class="faqs">FAQs</div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="contact-information">Contact Information</div>
+        <div class="social-media-links">Social Media Links</div>
+        <div class="legal-information">Legal Information (Privacy Policy, Terms of Service)</div>
+    </footer>
+</body>
+</html>
